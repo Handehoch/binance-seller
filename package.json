@@ -1,0 +1,21 @@
+{
+  "name": "binance-seller",
+  "version": "1.0.0",
+  "description": "Binance selling script",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "pup": "node ./src/puppeteer.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "lodash.merge": "^4.6.2",
+    "moment": "^2.29.1",
+    "proxy-agent": "^5.0.0",
+    "puppeteer": "^13.3.1"
+  }
+}
